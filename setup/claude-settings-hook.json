@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "V=\"$HOME/Documents/Skynet\"; [ -f \"$V/CORE.md\" ] && { python3 \"$V/tools/vault.py\" index -q >/dev/null 2>&1; sed '1,/^---$/{/^---$/!d;}' \"$V/CORE.md\" | sed '1,/^---$/d'; }; true",
+            "timeout": 10,
+            "statusMessage": "Loading Skynet core"
+          }
+        ]
+      }
+    ]
+  }
+}
