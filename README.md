@@ -16,7 +16,6 @@ log.md         append-only history: ## [date] op | what
 raw/           your original files, never edited: inbox/ (drop zone), school/<Subject>/, tech/
 wiki/          flat folder of AI-written pages, each with a type and a one-line summary
 archive/       old stuff, moved instead of deleted
-99-Private/    never shown to cloud AI
 tools/vault.py index | find | lint | log   (Python 3, no installs)
 ```
 
@@ -52,4 +51,4 @@ Just talk to the AI from inside the vault folder (or from anywhere, if you set u
 
 ## Your notes stay yours
 
-`.gitignore` keeps `raw/` and `99-Private/` out of git, so you don't push your papers or private notes by accident. If you fork this, keep it private once it has your stuff in it.
+`.gitignore` keeps `raw/` out of git, so you don't push your papers by accident. If you fork this, keep it private once it has your stuff in it.

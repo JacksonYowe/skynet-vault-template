@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Skynet LLM-wiki tool. Stdlib only. Never opens 99-Private.
+"""Skynet LLM-wiki tool. Stdlib only.
 
   vault.py index [-q]      rebuild index.md from wiki/ frontmatter (`summary:`)
   vault.py find WORDS...   rank wiki pages by keyword hits (names + summaries weigh most)
@@ -104,7 +104,7 @@ def lint():
         texts[name] = (p, text)
     all_files = set()
     for dp, dn, fn in os.walk(ROOT):
-        dn[:] = [d for d in dn if d not in {".git", ".obsidian", "99-Private"}]
+        dn[:] = [d for d in dn if d not in {".git", ".obsidian"}]
         for f in fn:
             all_files.add(f)
             all_files.add(os.path.splitext(f)[0])

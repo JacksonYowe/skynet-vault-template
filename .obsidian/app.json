@@ -4,6 +4,5 @@
   "newFileFolderPath": "raw/inbox",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": false,
-  "newLinkFormat": "shortest",
-  "userIgnoreFilters": ["99-Private/"]
+  "newLinkFormat": "shortest"
 }
