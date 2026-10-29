@@ -35,11 +35,11 @@ tools/vault.py index | find | lint | log   (Python 3, no installs)
 
 ## Set it up
 
-1. Click **Use this template** (or download the ZIP) and put the folder somewhere, e.g. `~/Documents/Skynet`.
+1. **[Download Skynet.zip](https://github.com/JacksonYowe/skynet-vault-template/releases/latest/download/Skynet.zip)** and unzip it, which gives you a `Skynet` folder. Move it somewhere, e.g. `~/Documents/Skynet`. (Or click **Use this template** if you want your own GitHub repo.)
 2. Fill in `CORE.md`: your name, year, subjects and anything the AI should always know. Keep it short.
 3. Rename `wiki/Example subject.md` to each of your subjects (copy it once per subject). Delete the other `Example` pages once you've seen the format.
 4. Optional, for Claude Code: merge `setup/claude-settings-hook.json` into `~/.claude/settings.json`. Change the `V=` path if your vault isn't at `~/Documents/Skynet`. Every session will then rebuild the index quietly and load `CORE.md`.
-5. Optional: open the folder in Obsidian (**Open folder as vault**) if you want to look at the graph. No plugins are needed.
+5. Optional: in Obsidian, choose **Open folder as vault** and pick the `Skynet` folder. Obsidian can't open the zip directly, so unzip it first. Settings come pre-configured and no plugins are needed.
 
 ## Using it
 
