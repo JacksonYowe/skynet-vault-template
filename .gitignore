@@ -2,7 +2,7 @@
 # After copying, delete the lines below if you want to version your own wiki.
 99-Private/*
 !99-Private/.gitkeep
-raw/**/*
+raw/*/*
 !raw/*/.gitkeep
 
 # Obsidian per-machine state
